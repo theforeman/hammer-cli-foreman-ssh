@@ -39,7 +39,7 @@ Usage Options
 
 
 ```
-$ hammer host host --help
+$ hammer host ssh --help
   Usage:
     hammer host ssh [OPTIONS]
 

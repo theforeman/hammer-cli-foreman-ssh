@@ -29,7 +29,7 @@ module HammerCLIForeman::SSH
       "on the following #{hosts.size} hosts: #{host_names.join(', ')}")
 
       unless prompt? == false || ask(_('Continue, (y/N)')).downcase == 'y'
-        warn _('aborting  per user request')
+        warn _('aborting per user request')
         return HammerCLI::EX_OK
       end
 
