@@ -1,19 +1,10 @@
-Hammer time
-===========
+Hammer CLI - Foreman SSH
+========================
 
 the plugin for hammer
 
 Install
 -------
-
-Either use ```specific_install``` (doesn't work on ruby 1.8)
-
-```bash
-$ gem instal specific_install
-$ gem specific_install -l 'mbacovsky/hammer-cli-time'
-```
-
-or do it the traditional way
 
 ```bash
 $ git clone git@github.com:theforeman/hammer-cli-foreman-ssh.git
@@ -22,11 +13,14 @@ $ rake install
 $ cd ..
 ```
 
-register the plugin in the hammer config
+register the plugin in the hammer configuration directory
 
-```yaml
-:modules:
-    - hammer_cli_foreman_ssh
+```
+cat > ~/.hammer/cli.modules.d/foreman_ssh.yml <<EOF
+:foreman_ssh:
+    :enable_module: true
+    :require: 'foreman'
+EOF
 ```
 
 and enjoy
