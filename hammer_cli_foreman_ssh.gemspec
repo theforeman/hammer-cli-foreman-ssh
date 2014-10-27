@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.license = 'GPLv3+'
   s.summary = %q{Adds Remote SSH support to Hammer Foreman CLI}
 
-  s.files = Dir['lib/**/*.rb']
+  s.files = Dir['lib/**/*.rb', 'LICENSE', 'README*']
   s.require_paths = ["lib"]
 
   s.add_dependency 'hammer_cli', '>= 0.0.6'
