@@ -16,6 +16,9 @@ module HammerCLIForeman::SSH
     option %w(-s --search), 'FILTER', _('Filter hosts based on a filter'), :attribute_name => :search
     option '--[no-]dns', :flag, _('Use DNS to resolve IP addresses'), :attribute_name => :use_dns
     option '--[no-]prompt', :flag, _('Prompt for users approval'), :attribute_name => :prompt
+    option %w(-i --identity_file), 'FILE',
+      _('Selects a file from which the identity (private key) for public key authentication is read'),
+      :attribute_name => :identity_file
 
     def request_params
       params             = super
@@ -34,6 +37,7 @@ module HammerCLIForeman::SSH
       end
 
       ssh_options = { :user => user, :auth_methods => ['publickey'] }
+      ssh_options[:keys] = [identity_file] unless identity_file.to_s.empty?
 
       Net::SSH::Multi.start(:on_error => :warn) do |session|
         targets.each { |s| session.use s, ssh_options }
