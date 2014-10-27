@@ -48,6 +48,7 @@ Options:
  --[no-]prompt                 Prompt for users approval
  -c, --command COMMAND         Command to execute
  -h, --help                    print help
+ -i, --identity_file FILE      Selects a file from which the identity (private key) for public key authentication is read
  -s, --search FILTER           Filter hosts based on a filter
  -u, --user USER               Execute as user
                                Default: "ohad"
