@@ -52,3 +52,7 @@ Options:
  -u, --user USER               Execute as user
                                Default: "ohad"
 ```
+
+License
+-------
+This project is licensed under the GPLv3+.

@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.version = HammerCLIForeman::SSH.version.dup
   s.platform = Gem::Platform::RUBY
   s.authors = ["Ohad Levy"]
+  s.license = 'GPLv3+'
   s.summary = %q{Adds Remote SSH support to Hammer Foreman CLI}
 
   s.files = Dir['lib/**/*.rb']
