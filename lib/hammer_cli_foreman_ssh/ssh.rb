@@ -2,7 +2,7 @@ require 'hammer_cli'
 require 'hammer_cli_foreman/host'
 require 'net/ssh/multi'
 
-module HammerCLIForeman::SSH
+module HammerCLIForemanSsh
   class Command < HammerCLIForeman::Command
 
     DEFAULT_PER_PAGE = 1000
@@ -72,5 +72,5 @@ module HammerCLIForeman::SSH
 
   end
 
-  HammerCLIForeman::Host.subcommand('ssh', _('Remote execution via SSH to selected hosts'), HammerCLIForeman::SSH::Command)
+  HammerCLIForeman::Host.subcommand('ssh', _('Remote execution via SSH to selected hosts'), HammerCLIForemanSsh::Command)
 end

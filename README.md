@@ -1,7 +1,7 @@
 Hammer CLI - Foreman SSH
 ========================
 
-the plugin for hammer
+SSH plugin for hammer
 
 Install
 -------
