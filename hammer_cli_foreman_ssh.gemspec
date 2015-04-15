@@ -1,10 +1,9 @@
-$:.unshift File.expand_path("../lib", __FILE__)
-require "hammer_cli_foreman/ssh/version"
+require File.expand_path('../lib/hammer_cli_foreman_ssh/version', __FILE__)
 
 Gem::Specification.new do |s|
 
   s.name = "hammer_cli_foreman_ssh"
-  s.version = HammerCLIForeman::SSH.version.dup
+  s.version = HammerCLIForemanSsh.version.dup
   s.platform = Gem::Platform::RUBY
   s.authors = ["Ohad Levy"]
   s.license = 'GPLv3+'
