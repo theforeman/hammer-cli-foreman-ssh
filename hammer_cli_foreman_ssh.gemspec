@@ -15,4 +15,13 @@ Gem::Specification.new do |s|
   s.add_dependency 'hammer_cli', '>= 0.0.6'
   s.add_dependency 'hammer_cli_foreman'
   s.add_dependency 'net-ssh-multi', '>= 1.2.1'
+
+  s.add_development_dependency 'rake', '~> 10.1.0'
+  s.add_development_dependency 'thor'
+  s.add_development_dependency 'minitest', '4.7.4'
+  s.add_development_dependency 'minitest-spec-context'
+  s.add_development_dependency 'simplecov', '< 0.9.0' # 0.9.0 is not compatible with Ruby 1.8.x
+  s.add_development_dependency 'mocha'
+  s.add_development_dependency 'ci_reporter', '>= 1.6.3', '< 2.0.0'
+
 end
