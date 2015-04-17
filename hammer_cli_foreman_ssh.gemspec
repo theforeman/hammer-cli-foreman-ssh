@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'hammer_cli', '>= 0.0.6'
   s.add_dependency 'hammer_cli_foreman'
-  s.add_dependency 'net-ssh-multi'
+  s.add_dependency 'net-ssh-multi', '>= 1.2.1'
 end
