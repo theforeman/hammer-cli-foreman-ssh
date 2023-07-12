@@ -1,0 +1,9 @@
+[main]
+host = https://app.transifex.com
+
+[o:foreman:p:foreman:r:hammer-cli-foreman-ssh]
+file_filter = locale/<lang>/hammer-cli-foreman-ssh.edit.po
+source_file = locale/hammer-cli-foreman-ssh.pot
+source_lang = en
+type = PO
+resource_name = hammer-cli-foreman-ssh
