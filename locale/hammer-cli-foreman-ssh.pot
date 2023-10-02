@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman-ssh package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-ssh 0.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 16:41+0000\n"
+"PO-Revision-Date: 2023-07-12 16:41+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:14
+msgid "Command to execute"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:15
+msgid "Number of concurrent SSH sessions"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:18
+msgid "Execute as user"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:19
+msgid "Filter hosts based on a filter"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:20
+msgid "Use DNS to resolve IP addresses"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:21
+msgid "Prompt for users approval"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:23
+msgid ""
+"Selects a file from which the identity (private key) for public key authentica"
+"tion is read"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:34
+msgid "specify 1 or more concurrent hosts"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:39
+msgid "Continue, (y/N)"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:40
+msgid "aborting per user request"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_ssh/ssh.rb:81
+msgid "Remote execution via SSH to selected hosts"
+msgstr ""
